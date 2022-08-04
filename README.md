@@ -24,7 +24,10 @@ FireLibrary is a web application that will simulate a full library portal. Custo
   - Stopping users with overdue items from borrowing further items.
   - Linking to ebooks when available. 
 - **Stretch Goals**
+  - Database pagination for book GET requests. 
   - User authentication handled with OAuth or OAuth2, eliminating the simple auth DB
+  - Displaying books as thumbnails that can display more books OnClick.
+  
  #### User Stories
  1. As a user I want to create an account.
  2. As a user I want to search for a specific book.
