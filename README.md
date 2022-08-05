@@ -7,8 +7,8 @@ FireLibrary is a web application that will simulate a full library portal. Custo
 ### Objectives
 #### Team objectives / Timeline
 - ~Have all team members clone the repository locally, as well as create a Dev and personal branches for members by EOD 8/4.~ - Done 8/4
-- ~Create nessecary files for and host the AuthenticationDB, Library server, and asp.net Web API's on Azure by EOD 8/5.~ - Done 8/5
-- Create GitHub Project for managing the project by EOD 8/5.
+- ~Create nessecary files for and host the AuthenticationDB, Library server, and asp.net Web API's on Azure by EOD 8/5.~ - Done 8/4
+- ~Create GitHub Project for managing the project by EOD 8/5.~ - Done 8/5
 - Populate the LibraryDB with books from the Open Library data dump with loading program by EOD 8/8.
 - Set up CI/CD Pipeline skeleton using GitHub actions for AuthDB, LibraryDB, and Web API by EOD 8/9.
 - Add Sonarcloud static analysis to the project and include it in the CI/CD Pipeline by EOD 8/9.
