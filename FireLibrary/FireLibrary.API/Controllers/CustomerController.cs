@@ -8,9 +8,11 @@ namespace FireLibrary.API.Controllers
     public class CustomerController : ControllerBase 
     {
         private readonly ILogger<CustomerController> _logger;
+        private readonly IRepository _repo;
 
-        public CustomerController(ILogger<CustomerController> logger)
+        public CustomerController(IRepository repo,ILogger<CustomerController> logger)
         {
+            this._repo = repo;
             this._logger = logger;
         }
         [HttpGet("api/customer")]
