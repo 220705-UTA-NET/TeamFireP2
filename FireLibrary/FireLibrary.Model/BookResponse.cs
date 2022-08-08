@@ -3,9 +3,9 @@ namespace FireLibrary.Model
 {
     public class BookResponse
     {
-        Book Book { get; set; }
-        int TotalCopies { get; set; }
-        int CopiesAvailable { get; set; }
+        public Book Book { get; set; }
+        public int TotalCopies { get; set; }
+        public int CopiesAvailable { get; set; }
         public BookResponse()
         {
         }

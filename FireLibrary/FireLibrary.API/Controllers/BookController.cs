@@ -15,10 +15,14 @@ namespace FireLibrary.API.Controllers
             this._repo = repo;
             this._logger = logger;
         }
-        [HttpGet("books")]
-        public async Task<ActionResult<Book>> GetBookAsync(string title, string author, string isbn)
+        [HttpGet("book")]
+        public async Task<ActionResult<BookResponse>> GetBookAsync(string isbn)
         {
-            await Task.Delay(1000);
+            throw new NotImplementedException();
+        }
+        [HttpGet("books")]
+        public async Task<ActionResult<List<BookResponse>>> GetBooksAsync(string author, string title)
+        {
             throw new NotImplementedException();
         }
 
