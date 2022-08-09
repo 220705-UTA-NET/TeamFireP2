@@ -13,7 +13,7 @@ namespace FireLibrary.Model
         {
             this.Book = book;
             this.TotalCopies = totalcopies;
-            this.TotalCopies = copiesavailable;
+            this.CopiesAvailable = copiesavailable;
         }
     }
 }
