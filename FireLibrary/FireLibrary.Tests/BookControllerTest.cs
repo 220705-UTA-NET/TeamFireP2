@@ -34,15 +34,14 @@ namespace FireLibrary.Tests
             System.Console.WriteLine(json_should_be);
             //act
             //var result = await bookController.GetBookAsync("title", "author", "isbn");//once implemented should return a task and could use await
-            //var result = await bookController.GetBookAsync("1785034677");
+            var result = await bookController.GetBookAsync("1785034677");
             //assert
-            //Assert.IsType<ContentResult>(result);//did it return action result
-            //Assert.IsType<ActionResult>(result);//did it return an action result//action result is abstract class -> that means it returns content?
+            Assert.IsType<ContentResult>(result);//did it return action result
+            Assert.IsType<ActionResult>(result);//did it return an action result//action result is abstract class -> that means it returns content?
             //Assert.Equal(json_should_be, result.Content);//it tells me content not defined in result, but I think it will return content
             //Assert.Equal(json_should_be, result.Value);//might not have value?//not sure how to test what returned content
-            //var resultContent = result.Result as ContentResult;
-            //Assert.Equal(json_should_be, resultContent.Content);
-            Assert.Equal(1, 1);
+            var resultContent = result.Result as ContentResult;
+            Assert.Equal(json_should_be, resultContent.Content);
         }
     }
 }
