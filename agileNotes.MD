@@ -1,5 +1,14 @@
 Standup - 8/8/2022
 
+- Abanoub - Working with Alejandro on x-unit tests, refactoring tests after removal of BookResponse object.
+- Alejandro - Working with abanoub on testing, implementing routes for Getbook and Getcutomer.
+- Hau - Working on creating the SqlRepository methods for LibraryRepository GetCustomer and Getbook.
+- Jonathan - add book objects, deploy API to azure for testing, give out url. Add secrets to azure. Work on CI/CD pipeline. Add angular app skeleton to the repo. 
+
+
+
+Standup - 8/8/2022
+
 SQL database (tables, data, stored procedures)
 - tables - add tables - Hau
 - data - add data - Jonathan (console app)
