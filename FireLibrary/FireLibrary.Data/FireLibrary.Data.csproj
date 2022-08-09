@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\FireLibrary.Model\FireLibrary.Model.csproj" />
+  </ItemGroup>
+
 </Project>
