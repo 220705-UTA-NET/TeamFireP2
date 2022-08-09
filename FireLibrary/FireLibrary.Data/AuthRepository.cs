@@ -25,6 +25,7 @@ namespace FireLibrary.Data
         public Task<Boolean> UserLogIn(string userName, string pword)
         {
             //logic, tbd
+            throw new NotImplementedException();
         }
 
 
@@ -32,28 +33,29 @@ namespace FireLibrary.Data
         public Task CreateUserAsync(User user)
         {
             //logic
+            throw new NotImplementedException();
         }
 
 
 
 
         //Unused Methods, from other controller. Find better solution
-        public Task<Book> GetBookIsbnAsync()
+        public Task<Book> GetBookIsbnAsync(string isbn)
         {
             throw new NotImplementedException();
         }
 
-        public Task<IEnumerable<Book>> GetBooksAsync()
+        public Task<IEnumerable<Book>> GetBooksAsync(string author, string title)
         {
             throw new NotImplementedException();
         }
 
-        public Task<IEnumerable<Book>> GetBooksByGenre()
+        public Task<IEnumerable<Book>> GetBooksByGenre(string genre)
         {
             throw new NotImplementedException();
         }
 
-        public Task<Customer> GetCustomerAsync()
+        public Task<Customer> GetCustomerAsync(int id)
         {
             throw new NotImplementedException();
         }
