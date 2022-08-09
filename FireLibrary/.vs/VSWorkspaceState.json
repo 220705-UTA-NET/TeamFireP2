@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\FireLibrary.API",
+    "\\FireLibrary.API\\bin",
+    "\\FireLibrary.Data",
+    "\\FireLibrary.Data\\bin",
+    "\\FireLibrary.Model",
+    "\\FireLibrary.Tests",
+    "\\SQL"
+  ],
+  "SelectedNode": "\\FireLibrary.Model\\obj",
+  "PreviewInSolutionExplorer": true
+}
