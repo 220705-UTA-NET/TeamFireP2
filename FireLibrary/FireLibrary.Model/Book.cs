@@ -8,6 +8,7 @@
         public string? Language { get; set; }
         public int Pages { get; set; }
         public int AuthorId { get; set; }
+        public string? AuthorName { get; set; }
         public string? Synopsys { get; set; }
         public string? Excerpt { get; set; }
         public int TotalCopies { get; set; } = 5;
@@ -16,7 +17,7 @@
 
         public Book() { }
 
-        public Book(string? isbn, string? title, string? publisher, string? language, int pages, int authorId, string? synopsys, string? excerpt, int totalCopies, int avalableCopies)
+        public Book(string? isbn, string? title, string? publisher, string? language, int pages, int authorId, string? authorname, string? synopsys, string? excerpt, int totalCopies, int avalableCopies)
         {
             Isbn = isbn;
             Title = title;
@@ -24,6 +25,7 @@
             Language = language;
             Pages = pages;
             AuthorId = authorId;
+            AuthorName = authorname;    
             Synopsys = synopsys;
             Excerpt = excerpt;
             TotalCopies = totalCopies;
