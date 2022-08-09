@@ -8,6 +8,7 @@ namespace FireLibrary.Model
 {
     public class Author
     {
+<<<<<<< HEAD
         public int AuthorID { get; set; }
         public string Name { get; set; }
 
@@ -17,6 +18,17 @@ namespace FireLibrary.Model
         {
             this.AuthorID = authorID;
             this.Name = name;
+=======
+        public int AuthorId { get; set; }
+        public string? Name { get; set; }
+
+        public Author() { }
+
+        public Author(int authorId, string name)
+        {
+            AuthorId = authorId;
+            Name = name;
+>>>>>>> dev
         }
     }
 }
