@@ -9,9 +9,9 @@ namespace FireLibrary.Data
 {
     public interface IRepository
     {
-        Task<Book> GetBookIsbnAsync();
-        Task<IEnumerable<Book>> GetBooksAsync();
-        Task<IEnumerable<Book>> GetBooksByGenre();
-        Task<Customer> GetCustomerAsync();
+        Task<Book> GetBookIsbnAsync(string isbn);
+        Task<IEnumerable<Book>> GetBooksAsync(string title, string author);
+        Task<IEnumerable<Book>> GetBooksByGenre(string genre);
+        Task<Customer> GetCustomerAsync(int id);
     }
 }

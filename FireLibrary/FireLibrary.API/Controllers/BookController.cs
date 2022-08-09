@@ -16,12 +16,12 @@ namespace FireLibrary.API.Controllers
             this._logger = logger;
         }
         [HttpGet("book")]
-        public async Task<ActionResult<BookResponse>> GetBookAsync(string isbn)
+        public async Task<ActionResult<Book>> GetBookAsync(string isbn)
         {
             throw new NotImplementedException();
         }
         [HttpGet("books")]
-        public async Task<ActionResult<List<BookResponse>>> GetBooksAsync(string author, string title)
+        public async Task<ActionResult<List<Book>>> GetBooksAsync(string author, string title)
         {
             throw new NotImplementedException();
         }
