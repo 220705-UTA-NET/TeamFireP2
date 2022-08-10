@@ -27,7 +27,7 @@ namespace FireLibrary.Tests
             json_should_be = @"{""AuthorId"":12345,""Name"":""authorname1""}";
             System.Console.WriteLine(json_should_be);
 
-            var result = await authorController.GetAuthorAsync(12345, "authorname1");
+            var result = await authorController.GetAuthorAsyncById(12345);
 
             //Assert.IsType<ContentResult>(result);
             //Assert.IsType<ActionResult>(result);
