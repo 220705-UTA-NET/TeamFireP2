@@ -10,9 +10,9 @@ FireLibrary is a web application that will simulate a full library portal. Custo
 - ~Create nessecary files for and host the AuthenticationDB, Library server, and asp.net Web API's on Azure by EOD 8/5.~ - Done 8/4
 - ~Create GitHub Project for managing the project by EOD 8/5.~ - Done 8/5
 - ~Populate the LibraryDB with books from the Open Library data dump with loading program by EOD 8/8.~ - test data manual entry, Ongoing
-- Set up CI/CD Pipeline skeleton using GitHub actions for AuthDB, LibraryDB, and Web API by EOD 8/9. - pending API deployment and git cleanup
-- Add Sonarcloud static analysis to the project and include it in the CI/CD Pipeline by EOD 8/9. - pending API deployment and git cleanup
-- Add Angular SPA skeleton (with DevOps pipeline) by EOD 8/9. - pending api deployment and git cleanup, SPA skeleton created
+- ~Set up CI/CD Pipeline skeleton using GitHub actions for AuthDB, LibraryDB, and Web API by EOD 8/9.~ - 
+- ~Add Sonarcloud static analysis to the project and include it in the CI/CD Pipeline by EOD 8/9.~
+- ~Add Angular SPA skeleton (with DevOps pipeline) by EOD 8/9.~ - 
 - Working Server by EOD 8/11.
 - Angular SPA done by EOD 8/14.
 - Create and publish Docker images on DockerHub by EOD 8/14.
@@ -27,6 +27,7 @@ FireLibrary is a web application that will simulate a full library portal. Custo
   - Database pagination for book GET requests. 
   - User authentication handled with OAuth or OAuth2, eliminating the simple auth DB
   - Displaying books as thumbnails that can display more books OnClick.
+  - Rewrite ado.net portions with Entity Framework
   
  #### User Stories
  1. As a user I want to create an account.
