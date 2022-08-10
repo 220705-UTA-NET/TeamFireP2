@@ -27,6 +27,7 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
+<<<<<<< HEAD
             "projectReferences": {
               "C:\\RevatureFolder\\TeamFireP2\\FireLibrary\\FireLibrary.Model\\FireLibrary.Model.csproj": {
                 "projectPath": "C:\\RevatureFolder\\TeamFireP2\\FireLibrary\\FireLibrary.Model\\FireLibrary.Model.csproj"
@@ -95,6 +96,8 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
+=======
+>>>>>>> b81591964f257d11612268dde873c2ed345b8498
             "projectReferences": {}
           }
         },

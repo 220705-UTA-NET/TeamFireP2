@@ -4,6 +4,7 @@
     "C:\\RevatureFolder\\TeamFireP2\\FireLibrary\\FireLibrary.Tests\\FireLibrary.Tests.csproj": {}
   },
   "projects": {
+<<<<<<< HEAD
     "C:\\RevatureFolder\\TeamFireP2\\FireLibrary\\FireLibrary.API\\FireLibrary.API.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -150,6 +151,16 @@
         "projectPath": "C:\\RevatureFolder\\TeamFireP2\\FireLibrary\\FireLibrary.Model\\FireLibrary.Model.csproj",
         "packagesPath": "C:\\Users\\Hau Nguyen\\.nuget\\packages\\",
         "outputPath": "C:\\RevatureFolder\\TeamFireP2\\FireLibrary\\FireLibrary.Model\\obj\\",
+=======
+    "C:\\RevatureFolder\\TeamFireP2\\FireLibrary\\FireLibrary.Tests\\FireLibrary.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\RevatureFolder\\TeamFireP2\\FireLibrary\\FireLibrary.Tests\\FireLibrary.Tests.csproj",
+        "projectName": "FireLibrary.Tests",
+        "projectPath": "C:\\RevatureFolder\\TeamFireP2\\FireLibrary\\FireLibrary.Tests\\FireLibrary.Tests.csproj",
+        "packagesPath": "C:\\Users\\Hau Nguyen\\.nuget\\packages\\",
+        "outputPath": "C:\\RevatureFolder\\TeamFireP2\\FireLibrary\\FireLibrary.Tests\\obj\\",
+>>>>>>> b81591964f257d11612268dde873c2ed345b8498
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Hau Nguyen\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -177,6 +188,7 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+<<<<<<< HEAD
           "imports": [
             "net461",
             "net462",
@@ -238,15 +250,20 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+=======
+>>>>>>> b81591964f257d11612268dde873c2ed345b8498
           "dependencies": {
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[17.1.0, )"
             },
+<<<<<<< HEAD
             "Moq": {
               "target": "Package",
               "version": "[4.18.2, )"
             },
+=======
+>>>>>>> b81591964f257d11612268dde873c2ed345b8498
             "coverlet.collector": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
