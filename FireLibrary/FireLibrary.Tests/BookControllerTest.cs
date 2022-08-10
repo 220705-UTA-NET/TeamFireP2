@@ -19,7 +19,7 @@ namespace FireLibrary.Tests
             //given
             //arrangepublic Book(string? isbn, string? title, string? publisher, string? language, int pages, int authorId, string? synopsys, string? excerpt, int totalCopies, int avalableCopies)
 
-            Book book = new Book("1785034677", "The Martian", "Andy Weir", "English", 400, -1, "I'm pretty much fucked.", "I'm pretty much fucked.", 5,5);//whatever book will be//needed to make a proper book object with title and all that
+            Book book = new Book("1785034677", "The Martian", "Ebury Publishing", "English", 171, 2, "Andy Weir", "I'm pretty much fucked.", "I'm pretty much fucked.", 5,5);//whatever book will be//needed to make a proper book object with title and all that
             //BookResponse bookResponse = new BookResponse();
             //bookResponse.Book = book;
             //bookResponse.TotalCopies = 2;
