@@ -61,7 +61,7 @@ namespace FireLibrary.API.Controllers
             string json = JsonSerializer.Serialize(books);
             if(author == "give me not found")
             {
-                return NotFound();
+                return NoContent();//204 no content
             }
             var result = new ContentResult()
             {
