@@ -37,7 +37,7 @@ namespace FireLibrary.Data
             throw new NotImplementedException();
         }
 
-        public async Task<Customer> GetCustomerAsync(string username)
+        public async Task<Customer> GetCustomerAsync(int id)
         {
             //logic pending
             throw new NotImplementedException();
