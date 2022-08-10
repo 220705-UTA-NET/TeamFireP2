@@ -14,27 +14,30 @@ namespace FireLibrary.Tests
     public class CustomerControllerTest
     {
         [Fact]
-        public void GetCustomer_Input_Result()
+        public async Task GetCustomer_Input_Result()
         {
-            Customer customer = new Customer(12345, "username1", true, 0);
-            CustomerResponse customerResponse = new CustomerResponse();
-            customerResponse.Customer = customer;
-            customerResponse.OutstandingBooks = 0;
-            customerResponse.Fines = 0;
+            Customer customer = new Customer(12345, "username1", true, 0, 0);
+            //CustomerResponse customerResponse = new CustomerResponse();
+            //customerResponse.Customer = customer;
+            //customerResponse.OutstandingBooks = 0;
+            //customerResponse.Fines = 0;
             System.Console.WriteLine("customer test ");
             Mock<ILogger<CustomerController>> mockLogger = new();
             Mock<IRepository> mockRepo = new();
             var customerController = new CustomerController(mockRepo.Object, mockLogger.Object);
 
-            string json_should_be = JsonSerializer.Serialize(customerResponse);
+            string json_should_be = JsonSerializer.Serialize(customer);
             System.Console.WriteLine(json_should_be);
-            json_should_be = @"{""Customer"":{""CustomerID"":12345,""Username"":""username1"",""CanBorrow"":true,""BookCount"":0},""OutstandingBooks"":0,""Fines"":0}";
+            json_should_be = @"{""CustomerId"":12345,""Username"":""username1"",""CanBorrow"":true,""Fines"":0,""BookCount"":0}";
             System.Console.WriteLine(json_should_be);
 
-            var result = customerController.GetCustomerAsync(12345, "username1");
+            var result = await customerController.GetCustomerAsync(12345, "username1");
 
-            Assert.IsType<ContentResult>(result);//did it return action result
-            Assert.IsType<ActionResult>(result);
+            //Assert.IsType<ContentResult>(result);
+            //Assert.IsType<ActionResult>(result);
+
+            var resultContent = result.Result as ContentResult;
+            Assert.Equal(json_should_be, resultContent.Content);
         }
     }
 }
