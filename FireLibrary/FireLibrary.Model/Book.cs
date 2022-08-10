@@ -10,7 +10,7 @@
         public string? Genre { get; set; }
         public int AuthorId { get; set; }
         public string? AuthorName { get; set; }
-        public string? Synopsys { get; set; }
+        public string? Synopsis { get; set; }
         public string? Excerpt { get; set; }
         public int TotalCopies { get; set; } = 5;
         public int AvalableCopies { get; set; } = 5;
@@ -19,20 +19,37 @@
 
         public Book() { }
 
-        public Book(string? isbn, string? title, string? publisher, string? language, int pages, int authorId, string? authorname, string? synopsys, string? excerpt, int totalCopies, int avalableCopies)
+        public Book(string? isbn, string? title, string? publisher, string? language, int pages, string? genre, int authorId, string? authorname, string? synopsis, string? excerpt, int totalCopies, int avalableCopies)
 
         {
             Isbn = isbn;
             Title = title;
             Publisher = publisher;
             Language = language;
+            Genre = genre;
             Pages = pages;
             AuthorId = authorId;
             AuthorName = authorname;    
-            Synopsys = synopsys;
+            Synopsis = synopsis;
             Excerpt = excerpt;
             TotalCopies = totalCopies;
             AvalableCopies = avalableCopies;
         }
+
+        public Book(string? isbn, string? title, string? publisher, string? language, int pages, string? genre, string? synopsis, string? excerpt, int totalCopies, int avalableCopies, string? authorname) 
+        {
+            Isbn = isbn;
+            Title = title;
+            Publisher = publisher;
+            Language = language;
+            Genre = genre;
+            Pages = pages;
+            AuthorName = authorname;
+            Synopsis = synopsis;
+            Excerpt = excerpt;
+            TotalCopies = totalCopies;
+            AvalableCopies = avalableCopies;
+        }
+
     }
 }

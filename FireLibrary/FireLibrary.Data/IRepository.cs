@@ -13,5 +13,6 @@ namespace FireLibrary.Data
         Task<IEnumerable<Book>> GetBooksAsync(string title, string author);
         Task<IEnumerable<Book>> GetBooksByGenre(string genre);
         Task<Customer> GetCustomerAsync(int id);
+       // Task<Book> GetAllBooksAsync();
     }
 }
