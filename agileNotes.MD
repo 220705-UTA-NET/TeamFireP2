@@ -1,5 +1,5 @@
 Standup - 8/10/2022
-Hau- Worked on SQLRepository async methods with SQL querys. Blockers: no blockers yet.
+Hau- Worked on SQLRepository async methods with SQL querys. AuthorController testing ongoing. Blockers: no blockers yet.
 Alejandro- Worked on Controller logic. Changed book controller, returns 404 for no content. Modified GetCustomerAsync. Slight refactoring to tests to reflect new methods. Working on integrating Hau's SQLRepository, as well as quantitizing test coverage. 
 Abanoub - Working on testing with Alejandro. Backend testing complete for now. 
 Jonathan - Working on adding book objects, deploy API to azure for testing, give out url. Add secrets to azure. Work on CI/CD pipeline. Add angular app skeleton to the repo. 
