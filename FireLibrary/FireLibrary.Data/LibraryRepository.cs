@@ -43,6 +43,11 @@ namespace FireLibrary.Data
             throw new NotImplementedException();
         }
 
+        Task<IEnumerable<Book>> IRepository.GetBookIsbnAsync(string isbn)
+        {
+            throw new NotImplementedException();
+        }
+
         //POST
     }
 }

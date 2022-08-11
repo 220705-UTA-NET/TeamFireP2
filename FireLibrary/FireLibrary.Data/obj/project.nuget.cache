@@ -1,26 +1,19 @@
 {
   "version": 2,
-<<<<<<< HEAD
-  "dgSpecHash": "Wl9zGw/n+hrE6Ia07O14RV9GTuSw500dm11FwltRg4vKP5VNA6T0aoy3PA8cGqyQAU/vzSBug7QScUM99D8CKQ==",
+  "dgSpecHash": "ldtL5GLXbWueRsA/HDGh+ACSaZArYFf1ENdf5Eq3rHz6KzJX9KeYb3T+AWPU9AtR8Ex2jkEakJtWgu3OH23MyQ==",
   "success": true,
-  "projectFilePath": "C:\\RevatureFolder\\TeamFireP2\\FireLibrary\\FireLibrary.Data\\FireLibrary.Data.csproj",
+  "projectFilePath": "/Users/abanoubfetaha/220705-UTA-NET/AbanoubS/P2/TeamFireP2/FireLibrary/FireLibrary.Data/FireLibrary.Data.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Hau Nguyen\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.1\\microsoft.extensions.logging.abstractions.6.0.1.nupkg.sha512",
-    "C:\\Users\\Hau Nguyen\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
-    "C:\\Users\\Hau Nguyen\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
-    "C:\\Users\\Hau Nguyen\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.7.0\\runtime.native.system.data.sqlclient.sni.4.7.0.nupkg.sha512",
-    "C:\\Users\\Hau Nguyen\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
-    "C:\\Users\\Hau Nguyen\\.nuget\\packages\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
-    "C:\\Users\\Hau Nguyen\\.nuget\\packages\\runtime.win-x86.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
-    "C:\\Users\\Hau Nguyen\\.nuget\\packages\\system.data.sqlclient\\4.8.3\\system.data.sqlclient.4.8.3.nupkg.sha512",
-    "C:\\Users\\Hau Nguyen\\.nuget\\packages\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",
-    "C:\\Users\\Hau Nguyen\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512"
+    "/Users/abanoubfetaha/.nuget/packages/microsoft.extensions.logging.abstractions/6.0.1/microsoft.extensions.logging.abstractions.6.0.1.nupkg.sha512",
+    "/Users/abanoubfetaha/.nuget/packages/microsoft.netcore.platforms/3.1.0/microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+    "/Users/abanoubfetaha/.nuget/packages/microsoft.win32.registry/4.7.0/microsoft.win32.registry.4.7.0.nupkg.sha512",
+    "/Users/abanoubfetaha/.nuget/packages/runtime.native.system.data.sqlclient.sni/4.7.0/runtime.native.system.data.sqlclient.sni.4.7.0.nupkg.sha512",
+    "/Users/abanoubfetaha/.nuget/packages/runtime.win-arm64.runtime.native.system.data.sqlclient.sni/4.4.0/runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "/Users/abanoubfetaha/.nuget/packages/runtime.win-x64.runtime.native.system.data.sqlclient.sni/4.4.0/runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "/Users/abanoubfetaha/.nuget/packages/runtime.win-x86.runtime.native.system.data.sqlclient.sni/4.4.0/runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "/Users/abanoubfetaha/.nuget/packages/system.data.sqlclient/4.8.3/system.data.sqlclient.4.8.3.nupkg.sha512",
+    "/Users/abanoubfetaha/.nuget/packages/system.security.accesscontrol/4.7.0/system.security.accesscontrol.4.7.0.nupkg.sha512",
+    "/Users/abanoubfetaha/.nuget/packages/system.security.principal.windows/4.7.0/system.security.principal.windows.4.7.0.nupkg.sha512"
   ],
-=======
-  "dgSpecHash": "YKmNifCJVUFzgz2g2qxanh4XKiZ80VTYg0fhMRQrU5bxZmFVim3y+IrMYdXh+QRYwZECsHraVTBiF6IAGBfHXA==",
-  "success": true,
-  "projectFilePath": "C:\\RevatureFolder\\TeamFireP2\\FireLibrary\\FireLibrary.Data\\FireLibrary.Data.csproj",
-  "expectedPackageFiles": [],
->>>>>>> b81591964f257d11612268dde873c2ed345b8498
   "logs": []
 }

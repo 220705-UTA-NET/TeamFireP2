@@ -17,10 +17,7 @@ namespace FireLibrary.Tests
         public async Task GetCustomer_Input_Result()
         {
             Customer customer = new Customer(12345, "username1", true, 0, 0);
-            //CustomerResponse customerResponse = new CustomerResponse();
-            //customerResponse.Customer = customer;
-            //customerResponse.OutstandingBooks = 0;
-            //customerResponse.Fines = 0;
+            
             System.Console.WriteLine("customer test ");
             Mock<ILogger<CustomerController>> mockLogger = new();
             Mock<IRepository> mockRepo = new();

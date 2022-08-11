@@ -5,6 +5,8 @@ var MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
 
 var builder = WebApplication.CreateBuilder(args);
 
+string connectionStringLibrary = "Server=tcp:myfirstdatabase-jonathan.database.windows.net,1433;Initial Catalog=LibraryAuthDB;Persist Security Info=False;User ID=jdelacruz;Password=Ellie3998!;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+string connectionStringAuth = "Server=tcp:myfirstdatabase-jonathan.database.windows.net,1433;Initial Catalog=LibraryAuthDB;Persist Security Info=False;User ID=jdelacruz;Password=Ellie3998!;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
 
 // Add services to the container.
 //string connectionStringLibrary = builder.Configuration.GetConnectionString("connectionStringLibrary");

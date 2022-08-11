@@ -1,39 +1,36 @@
 {
   "format": 1,
   "restore": {
-    "C:\\RevatureFolder\\TeamFireP2\\FireLibrary\\FireLibrary.Tests\\FireLibrary.Tests.csproj": {}
+    "/Users/abanoubfetaha/220705-UTA-NET/AbanoubS/P2/TeamFireP2/FireLibrary/FireLibrary.Tests/FireLibrary.Tests.csproj": {}
   },
   "projects": {
-<<<<<<< HEAD
-    "C:\\RevatureFolder\\TeamFireP2\\FireLibrary\\FireLibrary.API\\FireLibrary.API.csproj": {
+    "/Users/abanoubfetaha/220705-UTA-NET/AbanoubS/P2/TeamFireP2/FireLibrary/FireLibrary.API/FireLibrary.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\RevatureFolder\\TeamFireP2\\FireLibrary\\FireLibrary.API\\FireLibrary.API.csproj",
+        "projectUniqueName": "/Users/abanoubfetaha/220705-UTA-NET/AbanoubS/P2/TeamFireP2/FireLibrary/FireLibrary.API/FireLibrary.API.csproj",
         "projectName": "FireLibrary.API",
-        "projectPath": "C:\\RevatureFolder\\TeamFireP2\\FireLibrary\\FireLibrary.API\\FireLibrary.API.csproj",
-        "packagesPath": "C:\\Users\\Hau Nguyen\\.nuget\\packages\\",
-        "outputPath": "C:\\RevatureFolder\\TeamFireP2\\FireLibrary\\FireLibrary.API\\obj\\",
+        "projectPath": "/Users/abanoubfetaha/220705-UTA-NET/AbanoubS/P2/TeamFireP2/FireLibrary/FireLibrary.API/FireLibrary.API.csproj",
+        "packagesPath": "/Users/abanoubfetaha/.nuget/packages/",
+        "outputPath": "/Users/abanoubfetaha/220705-UTA-NET/AbanoubS/P2/TeamFireP2/FireLibrary/FireLibrary.API/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Hau Nguyen\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/abanoubfetaha/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\RevatureFolder\\TeamFireP2\\FireLibrary\\FireLibrary.Data\\FireLibrary.Data.csproj": {
-                "projectPath": "C:\\RevatureFolder\\TeamFireP2\\FireLibrary\\FireLibrary.Data\\FireLibrary.Data.csproj"
+              "/Users/abanoubfetaha/220705-UTA-NET/AbanoubS/P2/TeamFireP2/FireLibrary/FireLibrary.Data/FireLibrary.Data.csproj": {
+                "projectPath": "/Users/abanoubfetaha/220705-UTA-NET/AbanoubS/P2/TeamFireP2/FireLibrary/FireLibrary.Data/FireLibrary.Data.csproj"
               },
-              "C:\\RevatureFolder\\TeamFireP2\\FireLibrary\\FireLibrary.Model\\FireLibrary.Model.csproj": {
-                "projectPath": "C:\\RevatureFolder\\TeamFireP2\\FireLibrary\\FireLibrary.Model\\FireLibrary.Model.csproj"
+              "/Users/abanoubfetaha/220705-UTA-NET/AbanoubS/P2/TeamFireP2/FireLibrary/FireLibrary.Model/FireLibrary.Model.csproj": {
+                "projectPath": "/Users/abanoubfetaha/220705-UTA-NET/AbanoubS/P2/TeamFireP2/FireLibrary/FireLibrary.Model/FireLibrary.Model.csproj"
               }
             }
           }
@@ -71,36 +68,34 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.302/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\RevatureFolder\\TeamFireP2\\FireLibrary\\FireLibrary.Data\\FireLibrary.Data.csproj": {
+    "/Users/abanoubfetaha/220705-UTA-NET/AbanoubS/P2/TeamFireP2/FireLibrary/FireLibrary.Data/FireLibrary.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\RevatureFolder\\TeamFireP2\\FireLibrary\\FireLibrary.Data\\FireLibrary.Data.csproj",
+        "projectUniqueName": "/Users/abanoubfetaha/220705-UTA-NET/AbanoubS/P2/TeamFireP2/FireLibrary/FireLibrary.Data/FireLibrary.Data.csproj",
         "projectName": "FireLibrary.Data",
-        "projectPath": "C:\\RevatureFolder\\TeamFireP2\\FireLibrary\\FireLibrary.Data\\FireLibrary.Data.csproj",
-        "packagesPath": "C:\\Users\\Hau Nguyen\\.nuget\\packages\\",
-        "outputPath": "C:\\RevatureFolder\\TeamFireP2\\FireLibrary\\FireLibrary.Data\\obj\\",
+        "projectPath": "/Users/abanoubfetaha/220705-UTA-NET/AbanoubS/P2/TeamFireP2/FireLibrary/FireLibrary.Data/FireLibrary.Data.csproj",
+        "packagesPath": "/Users/abanoubfetaha/.nuget/packages/",
+        "outputPath": "/Users/abanoubfetaha/220705-UTA-NET/AbanoubS/P2/TeamFireP2/FireLibrary/FireLibrary.Data/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Hau Nguyen\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/abanoubfetaha/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\RevatureFolder\\TeamFireP2\\FireLibrary\\FireLibrary.Model\\FireLibrary.Model.csproj": {
-                "projectPath": "C:\\RevatureFolder\\TeamFireP2\\FireLibrary\\FireLibrary.Model\\FireLibrary.Model.csproj"
+              "/Users/abanoubfetaha/220705-UTA-NET/AbanoubS/P2/TeamFireP2/FireLibrary/FireLibrary.Model/FireLibrary.Model.csproj": {
+                "projectPath": "/Users/abanoubfetaha/220705-UTA-NET/AbanoubS/P2/TeamFireP2/FireLibrary/FireLibrary.Model/FireLibrary.Model.csproj"
               }
             }
           }
@@ -139,38 +134,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.302/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\RevatureFolder\\TeamFireP2\\FireLibrary\\FireLibrary.Model\\FireLibrary.Model.csproj": {
+    "/Users/abanoubfetaha/220705-UTA-NET/AbanoubS/P2/TeamFireP2/FireLibrary/FireLibrary.Model/FireLibrary.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\RevatureFolder\\TeamFireP2\\FireLibrary\\FireLibrary.Model\\FireLibrary.Model.csproj",
+        "projectUniqueName": "/Users/abanoubfetaha/220705-UTA-NET/AbanoubS/P2/TeamFireP2/FireLibrary/FireLibrary.Model/FireLibrary.Model.csproj",
         "projectName": "FireLibrary.Model",
-        "projectPath": "C:\\RevatureFolder\\TeamFireP2\\FireLibrary\\FireLibrary.Model\\FireLibrary.Model.csproj",
-        "packagesPath": "C:\\Users\\Hau Nguyen\\.nuget\\packages\\",
-        "outputPath": "C:\\RevatureFolder\\TeamFireP2\\FireLibrary\\FireLibrary.Model\\obj\\",
-=======
-    "C:\\RevatureFolder\\TeamFireP2\\FireLibrary\\FireLibrary.Tests\\FireLibrary.Tests.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\RevatureFolder\\TeamFireP2\\FireLibrary\\FireLibrary.Tests\\FireLibrary.Tests.csproj",
-        "projectName": "FireLibrary.Tests",
-        "projectPath": "C:\\RevatureFolder\\TeamFireP2\\FireLibrary\\FireLibrary.Tests\\FireLibrary.Tests.csproj",
-        "packagesPath": "C:\\Users\\Hau Nguyen\\.nuget\\packages\\",
-        "outputPath": "C:\\RevatureFolder\\TeamFireP2\\FireLibrary\\FireLibrary.Tests\\obj\\",
->>>>>>> b81591964f257d11612268dde873c2ed345b8498
+        "projectPath": "/Users/abanoubfetaha/220705-UTA-NET/AbanoubS/P2/TeamFireP2/FireLibrary/FireLibrary.Model/FireLibrary.Model.csproj",
+        "packagesPath": "/Users/abanoubfetaha/.nuget/packages/",
+        "outputPath": "/Users/abanoubfetaha/220705-UTA-NET/AbanoubS/P2/TeamFireP2/FireLibrary/FireLibrary.Model/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Hau Nguyen\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/abanoubfetaha/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -188,7 +171,6 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-<<<<<<< HEAD
           "imports": [
             "net461",
             "net462",
@@ -204,39 +186,37 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.302/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\RevatureFolder\\TeamFireP2\\FireLibrary\\FireLibrary.Tests\\FireLibrary.Tests.csproj": {
+    "/Users/abanoubfetaha/220705-UTA-NET/AbanoubS/P2/TeamFireP2/FireLibrary/FireLibrary.Tests/FireLibrary.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\RevatureFolder\\TeamFireP2\\FireLibrary\\FireLibrary.Tests\\FireLibrary.Tests.csproj",
+        "projectUniqueName": "/Users/abanoubfetaha/220705-UTA-NET/AbanoubS/P2/TeamFireP2/FireLibrary/FireLibrary.Tests/FireLibrary.Tests.csproj",
         "projectName": "FireLibrary.Tests",
-        "projectPath": "C:\\RevatureFolder\\TeamFireP2\\FireLibrary\\FireLibrary.Tests\\FireLibrary.Tests.csproj",
-        "packagesPath": "C:\\Users\\Hau Nguyen\\.nuget\\packages\\",
-        "outputPath": "C:\\RevatureFolder\\TeamFireP2\\FireLibrary\\FireLibrary.Tests\\obj\\",
+        "projectPath": "/Users/abanoubfetaha/220705-UTA-NET/AbanoubS/P2/TeamFireP2/FireLibrary/FireLibrary.Tests/FireLibrary.Tests.csproj",
+        "packagesPath": "/Users/abanoubfetaha/.nuget/packages/",
+        "outputPath": "/Users/abanoubfetaha/220705-UTA-NET/AbanoubS/P2/TeamFireP2/FireLibrary/FireLibrary.Tests/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Hau Nguyen\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/abanoubfetaha/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\RevatureFolder\\TeamFireP2\\FireLibrary\\FireLibrary.API\\FireLibrary.API.csproj": {
-                "projectPath": "C:\\RevatureFolder\\TeamFireP2\\FireLibrary\\FireLibrary.API\\FireLibrary.API.csproj"
+              "/Users/abanoubfetaha/220705-UTA-NET/AbanoubS/P2/TeamFireP2/FireLibrary/FireLibrary.API/FireLibrary.API.csproj": {
+                "projectPath": "/Users/abanoubfetaha/220705-UTA-NET/AbanoubS/P2/TeamFireP2/FireLibrary/FireLibrary.API/FireLibrary.API.csproj"
               },
-              "C:\\RevatureFolder\\TeamFireP2\\FireLibrary\\FireLibrary.Model\\FireLibrary.Model.csproj": {
-                "projectPath": "C:\\RevatureFolder\\TeamFireP2\\FireLibrary\\FireLibrary.Model\\FireLibrary.Model.csproj"
+              "/Users/abanoubfetaha/220705-UTA-NET/AbanoubS/P2/TeamFireP2/FireLibrary/FireLibrary.Model/FireLibrary.Model.csproj": {
+                "projectPath": "/Users/abanoubfetaha/220705-UTA-NET/AbanoubS/P2/TeamFireP2/FireLibrary/FireLibrary.Model/FireLibrary.Model.csproj"
               }
             }
           }
@@ -250,20 +230,15 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-=======
->>>>>>> b81591964f257d11612268dde873c2ed345b8498
           "dependencies": {
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[17.1.0, )"
             },
-<<<<<<< HEAD
             "Moq": {
               "target": "Package",
               "version": "[4.18.2, )"
             },
-=======
->>>>>>> b81591964f257d11612268dde873c2ed345b8498
             "coverlet.collector": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
@@ -296,7 +271,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.302/RuntimeIdentifierGraph.json"
         }
       }
     }

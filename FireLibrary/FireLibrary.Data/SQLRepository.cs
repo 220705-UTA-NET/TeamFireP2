@@ -73,7 +73,7 @@ namespace FireLibrary.Data
             cmd.Parameters.AddWithValue("@isbn", isbn); //taking the parameter from input
             using SqlDataReader reader = await cmd.ExecuteReaderAsync();
 
-                
+            Book b1 = new Book();
             
             while (await reader.ReadAsync())
             {
@@ -93,10 +93,14 @@ namespace FireLibrary.Data
 
                 Book tmpBook = new Book(_isbn, title, publisher, language, pages, genre, excerpt, synopsis, totalCopies, availableCopies, authorName);
                 book.Add(tmpBook);
+
+                b1 = tmpBook;
             }
 
             await connection.CloseAsync();
             _logger.LogInformation("Executed GetBooksAsync");
+
+            return (IEnumerable<Book>)b1;
         }
 
 
@@ -114,7 +118,7 @@ namespace FireLibrary.Data
             cmd.Parameters.AddWithValue("@author", author);
             using SqlDataReader reader = await cmd.ExecuteReaderAsync();
 
-
+            Book b2 = new Book();
 
             while (await reader.ReadAsync())
             {
@@ -134,10 +138,18 @@ namespace FireLibrary.Data
 
                 Book tmpBook = new Book(_isbn, _title, publisher, language, pages, genre, excerpt, synopsis, totalCopies, availableCopies, authorName);
                 book.Add(tmpBook);
+                b2 = tmpBook;
             }
 
             await connection.CloseAsync();
             _logger.LogInformation("Executed GetBooksAsync");
+
+            return (IEnumerable<Book>)b2;
+        }
+
+        public Task<IEnumerable<Book>> GetBooksByGenre(string genre)
+        {
+            throw new NotImplementedException();
         }
 
 
@@ -157,7 +169,7 @@ namespace FireLibrary.Data
             cmd.Parameters.AddWithValue("@id", id);
             using SqlDataReader reader = await cmd.ExecuteReaderAsync();
 
-
+            Customer cus1 = new Customer();
 
             while (await reader.ReadAsync())
             {
@@ -173,10 +185,12 @@ namespace FireLibrary.Data
 
                 Customer tmpCustomer = new Customer(_id, username, canBorrow, fines, bookcount);
                 customer.Add(tmpCustomer);
+                cus1 = tmpCustomer;
             }
 
             await connection.CloseAsync();
             _logger.LogInformation("Executed GetCustomerAsync");
+            return cus1;
         }
 
 

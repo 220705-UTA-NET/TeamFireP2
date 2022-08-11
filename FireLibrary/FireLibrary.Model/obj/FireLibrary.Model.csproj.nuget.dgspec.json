@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\RevatureFolder\\TeamFireP2\\FireLibrary\\FireLibrary.Model\\FireLibrary.Model.csproj": {}
+    "/Users/abanoubfetaha/220705-UTA-NET/AbanoubS/P2/TeamFireP2/FireLibrary/FireLibrary.Model/FireLibrary.Model.csproj": {}
   },
   "projects": {
-    "C:\\RevatureFolder\\TeamFireP2\\FireLibrary\\FireLibrary.Model\\FireLibrary.Model.csproj": {
+    "/Users/abanoubfetaha/220705-UTA-NET/AbanoubS/P2/TeamFireP2/FireLibrary/FireLibrary.Model/FireLibrary.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\RevatureFolder\\TeamFireP2\\FireLibrary\\FireLibrary.Model\\FireLibrary.Model.csproj",
+        "projectUniqueName": "/Users/abanoubfetaha/220705-UTA-NET/AbanoubS/P2/TeamFireP2/FireLibrary/FireLibrary.Model/FireLibrary.Model.csproj",
         "projectName": "FireLibrary.Model",
-        "projectPath": "C:\\RevatureFolder\\TeamFireP2\\FireLibrary\\FireLibrary.Model\\FireLibrary.Model.csproj",
-        "packagesPath": "C:\\Users\\Hau Nguyen\\.nuget\\packages\\",
-        "outputPath": "C:\\RevatureFolder\\TeamFireP2\\FireLibrary\\FireLibrary.Model\\obj\\",
+        "projectPath": "/Users/abanoubfetaha/220705-UTA-NET/AbanoubS/P2/TeamFireP2/FireLibrary/FireLibrary.Model/FireLibrary.Model.csproj",
+        "packagesPath": "/Users/abanoubfetaha/.nuget/packages/",
+        "outputPath": "/Users/abanoubfetaha/220705-UTA-NET/AbanoubS/P2/TeamFireP2/FireLibrary/FireLibrary.Model/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Hau Nguyen\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/abanoubfetaha/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -54,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.302/RuntimeIdentifierGraph.json"
         }
       }
     }
