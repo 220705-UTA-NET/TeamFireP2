@@ -1,7 +1,6 @@
 {
   "version": 3,
   "targets": {
-<<<<<<< HEAD
     "net6.0": {
       "Microsoft.Extensions.Logging.Abstractions/6.0.1": {
         "type": "package",
@@ -535,13 +534,6 @@
       "Microsoft.Extensions.Logging.Abstractions >= 6.0.1",
       "System.Data.SqlClient >= 4.8.3"
     ]
-=======
-    "net6.0": {}
-  },
-  "libraries": {},
-  "projectFileDependencyGroups": {
-    "net6.0": []
->>>>>>> b81591964f257d11612268dde873c2ed345b8498
   },
   "packageFolders": {
     "C:\\Users\\Hau Nguyen\\.nuget\\packages\\": {}
@@ -569,15 +561,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-<<<<<<< HEAD
           "projectReferences": {
             "C:\\RevatureFolder\\TeamFireP2\\FireLibrary\\FireLibrary.Model\\FireLibrary.Model.csproj": {
               "projectPath": "C:\\RevatureFolder\\TeamFireP2\\FireLibrary\\FireLibrary.Model\\FireLibrary.Model.csproj"
             }
           }
-=======
-          "projectReferences": {}
->>>>>>> b81591964f257d11612268dde873c2ed345b8498
         }
       },
       "warningProperties": {
@@ -589,7 +577,6 @@
     "frameworks": {
       "net6.0": {
         "targetAlias": "net6.0",
-<<<<<<< HEAD
         "dependencies": {
           "Microsoft.Extensions.Logging.Abstractions": {
             "target": "Package",
@@ -600,8 +587,6 @@
             "version": "[4.8.3, )"
           }
         },
-=======
->>>>>>> b81591964f257d11612268dde873c2ed345b8498
         "imports": [
           "net461",
           "net462",
@@ -620,5 +605,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\RevatureFolder\\TeamFireP2\\FireLibrary\\FireLibrary.Data\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

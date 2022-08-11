@@ -96,7 +96,7 @@ namespace FireLibrary.Data
             }
 
             await connection.CloseAsync();
-            _logger.LogInformation("Executed GetBooksAsync");
+            _logger.LogInformation("Executed GetBooksIsbnAsync");
         }
 
 

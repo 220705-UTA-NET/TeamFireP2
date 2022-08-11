@@ -13,7 +13,6 @@
           "buildMultiTargeting/Microsoft.Extensions.ApiDescription.Server.targets": {}
         }
       },
-<<<<<<< HEAD
       "Microsoft.Extensions.Logging.Abstractions/6.0.1": {
         "type": "package",
         "compile": {
@@ -35,8 +34,6 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-=======
->>>>>>> b81591964f257d11612268dde873c2ed345b8498
       "Microsoft.OpenApi/1.2.3": {
         "type": "package",
         "compile": {
@@ -46,7 +43,6 @@
           "lib/netstandard2.0/Microsoft.OpenApi.dll": {}
         }
       },
-<<<<<<< HEAD
       "Microsoft.Win32.Registry/4.7.0": {
         "type": "package",
         "dependencies": {
@@ -105,8 +101,6 @@
           }
         }
       },
-=======
->>>>>>> b81591964f257d11612268dde873c2ed345b8498
       "Swashbuckle.AspNetCore/6.2.3": {
         "type": "package",
         "dependencies": {
@@ -158,7 +152,6 @@
           "Microsoft.AspNetCore.App"
         ]
       },
-<<<<<<< HEAD
       "System.Data.SqlClient/4.8.3": {
         "type": "package",
         "dependencies": {
@@ -229,11 +222,6 @@
           "Microsoft.Extensions.Logging.Abstractions": "6.0.1",
           "System.Data.SqlClient": "4.8.3"
         },
-=======
-      "FireLibrary.Data/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
->>>>>>> b81591964f257d11612268dde873c2ed345b8498
         "compile": {
           "bin/placeholder/FireLibrary.Data.dll": {}
         },
@@ -281,7 +269,6 @@
         "tools/netcoreapp2.1/GetDocument.Insider.runtimeconfig.json"
       ]
     },
-<<<<<<< HEAD
     "Microsoft.Extensions.Logging.Abstractions/6.0.1": {
       "sha512": "dzB2Cgg+JmrouhjkcQGzSFjjvpwlq353i8oBQO2GWNjCXSzhbtBRUf28HSauWe7eib3wYOdb3tItdjRwAdwCSg==",
       "type": "package",
@@ -351,8 +338,6 @@
         "version.txt"
       ]
     },
-=======
->>>>>>> b81591964f257d11612268dde873c2ed345b8498
     "Microsoft.OpenApi/1.2.3": {
       "sha512": "Nug3rO+7Kl5/SBAadzSMAVgqDlfGjJZ0GenQrLywJ84XGKO0uRqkunz5Wyl0SDwcR71bAATXvSdbdzPrYRYKGw==",
       "type": "package",
@@ -370,7 +355,6 @@
         "microsoft.openapi.nuspec"
       ]
     },
-<<<<<<< HEAD
     "Microsoft.Win32.Registry/4.7.0": {
       "sha512": "KSrRMb5vNi0CWSGG1++id2ZOs/1QhRqROt+qgbEAdQuGjGrFcl4AOl4/exGPUYz2wUnU42nvJqon1T3U0kPXLA==",
       "type": "package",
@@ -481,8 +465,6 @@
         "version.txt"
       ]
     },
-=======
->>>>>>> b81591964f257d11612268dde873c2ed345b8498
     "Swashbuckle.AspNetCore/6.2.3": {
       "sha512": "cnzQDn0Le+hInsw2SYwlOhOCPXpYi/szcvnyqZJ12v+QyrLBwAmWXBg6RIyHB18s/mLeywC+Rg2O9ndz0IUNYQ==",
       "type": "package",
@@ -564,7 +546,6 @@
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
     },
-<<<<<<< HEAD
     "System.Data.SqlClient/4.8.3": {
       "sha512": "yERfVLXAY0QbylAgaGLByYN0hFxX28aeEQ0hUgJO+Ntn1AfmWl5HHUoYJA0Yl9HhIUUJHVaS/Sw/RLZr5aaC+A==",
       "type": "package",
@@ -751,8 +732,6 @@
         "version.txt"
       ]
     },
-=======
->>>>>>> b81591964f257d11612268dde873c2ed345b8498
     "FireLibrary.Data/1.0.0": {
       "type": "project",
       "path": "../FireLibrary.Data/FireLibrary.Data.csproj",
@@ -843,5 +822,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\RevatureFolder\\TeamFireP2\\FireLibrary\\FireLibrary.API\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

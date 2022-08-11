@@ -13,20 +13,21 @@ SELECT * FROM FireLibrary.Authors
 
 
 
---DROP TABLE FireLibrary.Books
+DROP TABLE FireLibrary.Books
 CREATE TABLE FireLibrary.Books
 (
     ISBN NVARCHAR(17) PRIMARY KEY,
     AuthorId INT FOREIGN KEY REFERENCES FireLibrary.Authors(Id),
     Title NVARCHAR (255) NOT NULL,
+    Pages INT NOT NULL,
     Publisher NVARCHAR (255) NOT NULL,  
     Language NVARCHAR (16) NOT NULL,
+    Genre NVARCHAR (16) NOT NULL,
     Excerpt NVARCHAR(MAX) NOT NULL,
     Synopsis NVARCHAR(MAX) NOT NULL, 
     MSRP REAL NULL,
     TotalCopies INT NOT NULL,
     AvailableCopies INT NOT NULL,
-
 )
 SELECT * FRom FireLibrary.Books
 
@@ -66,3 +67,21 @@ CREATE TABLE FireLibrary.Orders
     DateDue DATE NOT NULL,
 )
 SELECT * FRom FireLibrary.Orders
+
+
+SELECT * FROM FireLibrary.Authors
+
+
+SELECT ISBN, Title, Pages, Publisher, Language, Genre, Excerpt, Synopsis, TotalCopies, AvailableCopies, a.Name as AuthorName FROM FireLibrary.Books AS b
+JOIN FireLibrary.Authors AS a
+ON a.Id = b.AuthorId
+WHERE Title = 'The Martian'
+AND a.Name = 'Andy Weir'
+
+
+
+
+SELECT Id, Username, CanBorrow, Fines, BookCount 
+FROM FireLibrary.Customer
+WHERE Id = 1
+

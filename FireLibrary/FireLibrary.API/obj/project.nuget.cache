@@ -1,15 +1,10 @@
 {
   "version": 2,
-<<<<<<< HEAD
   "dgSpecHash": "sWE8NQo+fe5aL51BnncNuNRAXzFzV648XJzgRPRcN9YWoJzFqSq1RMzq3cZsppaNwZqwgMfgOJrh1hjnmdZ8MA==",
-=======
-  "dgSpecHash": "thUkfDsfgFLRUHgSP8sPDOrmQZo6eiFbhdr8BGT50JgKoL/REvPqj9xa3cj0nR4Sf802Z+gUmcjzulEDDv0MbQ==",
->>>>>>> b81591964f257d11612268dde873c2ed345b8498
   "success": true,
   "projectFilePath": "C:\\RevatureFolder\\TeamFireP2\\FireLibrary\\FireLibrary.API\\FireLibrary.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Hau Nguyen\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
-<<<<<<< HEAD
     "C:\\Users\\Hau Nguyen\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.1\\microsoft.extensions.logging.abstractions.6.0.1.nupkg.sha512",
     "C:\\Users\\Hau Nguyen\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\Hau Nguyen\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
@@ -25,13 +20,13 @@
     "C:\\Users\\Hau Nguyen\\.nuget\\packages\\system.data.sqlclient\\4.8.3\\system.data.sqlclient.4.8.3.nupkg.sha512",
     "C:\\Users\\Hau Nguyen\\.nuget\\packages\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",
     "C:\\Users\\Hau Nguyen\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512"
-=======
-    "C:\\Users\\Hau Nguyen\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
-    "C:\\Users\\Hau Nguyen\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
-    "C:\\Users\\Hau Nguyen\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
-    "C:\\Users\\Hau Nguyen\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
-    "C:\\Users\\Hau Nguyen\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
->>>>>>> b81591964f257d11612268dde873c2ed345b8498
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\RevatureFolder\\TeamFireP2\\FireLibrary\\FireLibrary.API\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
